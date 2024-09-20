@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            color: blueviolet;
+            font-size: 50px;
+            text-decoration: underline;
+        }
+        .img1:hover {
+            transform: translate(100px);
+        }
+
+        .img2:hover {
+            transform: scale(1.5);
+        }
+
+        .img3:hover {
+            transform: rotate(30deg);
+        }
+
+        .img4:hover {
+            transform: skew(30deg);
+        }
+        .img5:hover {
+            transform: translate3d(200px,0px,50px);
+           box-shadow: 20px 10px 5px blueviolet ;
+           
+        }
+        .img6:hover {
+            transform: scale3d(1.1,1.1,1);
+            box-shadow: 20px 10px 5px green ;
+        }
+           
+        .img7:hover {
+            transform: rotate3d(2,5,2, 180deg);
+            box-shadow: 20px 15px 10px red ;
+        }
+        .img8:hover {
+            transform: perspective(600px) rotateX(30deg);
+            box-shadow: 20px 10px 5px black ;
+
+        }
+    </style>
+</head>
+
+<body style="background-color: aquamarine;">
+    <div >
+        <h1 >2D Transforms</h1>
+        <div style="display: flex; flex-direction: row; justify-content: center;  gap: 200px;">
+            <div class="img1"><img src="./OIP (1).jfif" alt=""></div>
+            <div class="img2"><img src="./OIP (2).jfif" alt=""></div>
+        </div>
+        <div style="display: flex; flex-direction: row; justify-content: center; margin-top: 50px;gap: 200px;">
+            <div class="img3"><img src="./OIP (6).jfif" alt="" height="100%"></div>
+            <div class="img4"><img src="./OIP.jfif" alt=""></div>
+        </div>
+    </div>
+
+    <div style="margin-top: 100px;">
+        <h1 >3D Transforms</h1>
+        <div style="display: flex; flex-direction: row; justify-content: center;  gap: 200px;">
+            <div class="img5"><img src="./OIP (1).jfif" alt=""></div>
+            <div class="img6"><img src="./OIP (2).jfif" alt=""></div>
+        </div>
+        <div style="display: flex; flex-direction: row; justify-content: center; margin-top: 50px;gap: 200px;">
+            <div class="img7"><img src="./OIP (6).jfif" alt="" height="100%"></div>
+            <div class="img8"><img src="./OIP.jfif" alt=""></div>
+        </div>
+    </div>
+</body>
+
+</html>
